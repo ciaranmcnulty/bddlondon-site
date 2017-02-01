@@ -1,7 +1,5 @@
 body {
-    text-align: center;
     padding: 50px;
-
     font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 20px;
     line-height: 1.5;
@@ -10,14 +8,39 @@ body {
     color: #333;
 }
 
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#home {
+    text-align: center;
+}
+
+#content {
+}
+
+h1, h2, h3 {
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+#content img {
+    width: 100%;
+    max-width: 800px;
+}
+
 #logo {
     width: 100%;
     max-width: 400px;
 }
 
-p {
+#content #logo {
+    max-width: 200px;
+}
+
+#home p {
     margin: 30px auto;
-    max-width: 800px;
     text-align: center;
 }
 
@@ -30,6 +53,11 @@ p {
 #home ul.action-links li {
     padding: 0px;
     margin: 5px;
+}
+
+#content p {
+    margin: 30px auto;
+    max-width: 800px;
 }
 
 #content ul {
