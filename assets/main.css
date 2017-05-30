@@ -70,3 +70,14 @@ h1, h2, h3 {
     margin: 15px;
     text-align: left;
 }
+
+#next-meetup {
+    text-align: left;
+    padding: 1em;
+    border: solid black 1px;
+    border-radius: 1em;
+}
+
+#next-meetup h3, #next-meetup p {
+    text-align: left;
+}
