@@ -76,6 +76,7 @@ h1, h2, h3 {
     padding: 1em;
     border: solid black 1px;
     border-radius: 1em;
+    background-color: #FFFAF0;
 }
 
 #next-meetup h3, #next-meetup p {
